@@ -1,8 +1,8 @@
 # pubg-prediction
 
----
+
 # Collaborators:
-[@yuweizhu1993](https://github.com/yuweizhu1993)
+[@yuweizhu1993](https://github.com/yuweizhu1993)   
 [@surancy](https://github.com/surancy)
 
 # Citations
