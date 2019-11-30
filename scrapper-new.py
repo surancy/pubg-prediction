@@ -38,85 +38,10 @@ for platform in platform_list:
         match_list.append(match['id'])
 
 
-# In[50]:
-
-
 len(match_list) # 2007 matches from three platforms
 
 
-# In[ ]:
-
-
-'type':'participant',
-'id':'a0f0efc4-9298-4b57-8bbc-9aefbfea296c',
-'attributes':{ 
-   'stats':{ 
-      'DBNOs':2,
-      'assists':0,
-      'boosts':6,
-      'damageDealt':148.37,
-      'deathType':'byplayer',
-      'headshotKills':0,
-      'heals':7,
-      'killPlace':15,
-      'killStreaks':1,
-      'kills':2,
-      'longestKill':8.659662,
-      'name':'tianmijian',
-      'playerId':'account.2f0ef27035fc43d8bc80b4b140d9718c',
-      'revives':0,
-      'rideDistance':0,
-      'roadKills':0,
-      'swimDistance':0,
-      'teamKills':0,
-      'timeSurvived':689.386,
-      'vehicleDestroys':0,
-      'walkDistance':497.25082,
-      'weaponsAcquired':4,
-      'winPlace':13
-   },
-   'actor':'',
-   'shardId':'steam'
-}
-      },
-      { 
-'type':'roster',
-'id':'17e53e6d-f28e-474a-b5b9-cfa1faa1f4bd',
-'attributes':{ 
-   'stats':{ 
-      'rank':35,
-      'teamId':6
-   },
-   'won':'false',
-   'shardId':'steam'
-},
-'relationships':{ 
-   'team':{ 
-      'data':None
-   },
-   'participants':{ 
-      'data':[ 
-         { 
-            'type':'participant',
-            'id':'c4f285f7-d528-4e4f-9150-a4da285646dc'
-         },
-         { 
-            'type':'participant',
-            'id':'68ccad81-5411-4f9f-862e-9ff39ad45c3e'
-         }
-      ]
-   }
-}
-      },
-
-
-# In[66]:
-
-
 all_rows = []
-
-
-# In[67]:
 
 
 for i,match in enumerate(match_list):
@@ -185,7 +110,6 @@ with open('data.csv', 'w', newline='') as file:
         writer.writerow(row)
 
 
-# In[ ]:
 
 
 
